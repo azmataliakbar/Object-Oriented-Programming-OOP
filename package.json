@@ -1,0 +1,28 @@
+{
+  "name": "6z0m9t-object_oriented_programming_oop",
+  "version": "1.0.0",
+  "description": "creating a simple TypeScript console application that demonstrates Object-Oriented Programming (OOP) concepts. Let's create a basic example of a class representing a Person, which has properties like name and age, and methods like sayHello()",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "6z0m9t-object_oriented_programming_oop": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
